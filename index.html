@@ -77,6 +77,10 @@ nav.solid{
   text-decoration:none;color:var(--wh);
   display:flex;align-items:center;gap:6px;
 }
+.logo img{
+  height:40px;
+  width:auto;
+}
 .logo-dot{
   width:7px;height:7px;background:var(--r);
   border-radius:50%;display:inline-block;
@@ -592,6 +596,10 @@ footer{
   display:flex;align-items:center;gap:8px;
   margin-bottom:16px;
 }
+.ft-logo img{
+  height:30px;
+  width:auto;
+}
 .ft-logo-dot{width:7px;height:7px;background:var(--r);border-radius:50%}
 .ft-sub{font-size:14px;font-weight:300;color:var(--wh3);line-height:1.7}
 .ft-nt{font-size:10px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--r);margin-bottom:20px}
@@ -713,7 +721,7 @@ footer{
 <!-- NAV -->
 <nav id="nav">
   <a class="logo" href="#" onclick="go('home',event)">
-    GODMODE<span class="logo-dot"></span>STUDIOZ
+    <img src="logo.svg" alt="GodMode Studioz">
   </a>
   <ul class="nav-center">
     <li><a href="#" onclick="go('home',event)">Home</a></li>
@@ -950,7 +958,9 @@ footer{
 <footer>
   <div class="ft-top">
     <div>
-      <div class="ft-logo">GODMODE<span class="ft-logo-dot"></span>STUDIOZ</div>
+      <div class="ft-logo">
+        <img src="logo.svg" alt="GodMode Studioz">
+      </div>
       <p class="ft-sub">The first experience of your story.<br>Bangalore's cinematic visual production house.</p>
     </div>
     <div>
@@ -1023,7 +1033,7 @@ footer{
 
 <footer>
   <div class="ft-top">
-    <div><div class="ft-logo">GODMODE<span class="ft-logo-dot"></span>STUDIOZ</div><p class="ft-sub">The first experience of your story.</p></div>
+    <div><div class="ft-logo"><img src="logo.svg" alt="GodMode Studioz"></div><p class="ft-sub">The first experience of your story.</p></div>
     <div><p class="ft-nt">Navigate</p><div class="ft-links"><a href="#" onclick="go('home',event)">Home</a><a href="#" onclick="go('work',event)">Work</a><a href="#" onclick="go('films',event)">Films</a></div></div>
     <div><p class="ft-nt">Connect</p><div class="ft-links"><a href="#" onclick="go('services',event)">Services</a><a href="#" onclick="go('contact',event)">Contact</a><a href="mailto:godmodestudiozhq@gmail.com">Email Us</a></div></div>
   </div>
@@ -1061,7 +1071,7 @@ footer{
 
 <footer>
   <div class="ft-top">
-    <div><div class="ft-logo">GODMODE<span class="ft-logo-dot"></span>STUDIOZ</div><p class="ft-sub">The first experience of your story.</p></div>
+    <div><div class="ft-logo"><img src="logo.svg" alt="GodMode Studioz"></div><p class="ft-sub">The first experience of your story.</p></div>
     <div><p class="ft-nt">Navigate</p><div class="ft-links"><a href="#" onclick="go('home',event)">Home</a><a href="#" onclick="go('about',event)">About</a><a href="#" onclick="go('films',event)">Films</a></div></div>
     <div><p class="ft-nt">Connect</p><div class="ft-links"><a href="#" onclick="go('contact',event)">Contact</a><a href="mailto:godmodestudiozhq@gmail.com">Email Us</a></div></div>
   </div>
@@ -1082,176 +1092,4 @@ footer{
   <div class="svc-grid rv">
     <div class="svc"><div class="svc-hover-orb"></div><span class="svc-num">01</span><div class="svc-name">Visual Editing<br>& Promo Cuts</div><ul class="svc-items"><li>Trailer Cut</li><li>Teaser Cut</li><li>Promo Cut</li><li>Showreel Cut</li><li>Documentary Film</li><li>Song Edit Cut</li><li>Interview & Podcast Cuts</li></ul></div>
     <div class="svc"><div class="svc-hover-orb"></div><span class="svc-num">02</span><div class="svc-name">Motion Graphics<br>2D / 3D</div><ul class="svc-items"><li>Film Title Animations</li><li>Hero Title Cards</li><li>2D/3D Lyrical Videos</li><li>Motion Posters</li><li>Character Animations</li><li>VFX-Assisted Elements</li></ul></div>
-    <div class="svc"><div class="svc-hover-orb"></div><span class="svc-num">03</span><div class="svc-name">Publicity<br>Design</div><ul class="svc-items"><li>Key Art Posters</li><li>Character Posters</li><li>Film Branding & Identity</li><li>Title Logo Design</li><li>Announcement Creatives</li><li>Digital Media Artworks</li></ul></div>
-    <div class="svc"><div class="svc-hover-orb"></div><span class="svc-num">04</span><div class="svc-name">AI &<br>Conceptual Work</div><ul class="svc-items"><li>Concept Videos</li><li>AI-Assisted Short Films</li><li>Concept Visuals & World Building</li><li>AI Storyboards</li><li>AI Animatic Layouts</li><li>AI Previz for Scenes</li></ul></div>
-    <div class="svc"><div class="svc-hover-orb"></div><span class="svc-num">05</span><div class="svc-name">Special<br>Deliverables</div><ul class="svc-items"><li>Film Starting Credits</li><li>Rolling End Credits</li><li>Festival Submission Packaging</li><li>OTT Deliverables</li><li>Subtitles & Language Masters</li><li>Theatrical & Digital Mastering</li></ul></div>
-    <div class="svc"><div class="svc-hover-orb"></div><span class="svc-num">06</span><div class="svc-name">Strategy &<br>Campaign Support</div><ul class="svc-items"><li>End-to-End Campaign Planning</li><li>Creative Direction & Visual Strategy</li><li>Launch Campaigns</li><li>Promo Calendar & Rollout Mapping</li><li>Narrative Positioning Strategy</li><li>Digital Platform Optimisation</li></ul></div>
-  </div>
-</section>
-
-<div class="cta-band rv">
-  <h2 class="cta-h">Ready to shape<br><em>your film's story?</em></h2>
-  <a href="#" class="btn-pill solid" onclick="go('contact',event)">Get In Touch</a>
-</div>
-
-<footer>
-  <div class="ft-top">
-    <div><div class="ft-logo">GODMODE<span class="ft-logo-dot"></span>STUDIOZ</div><p class="ft-sub">The first experience of your story.</p></div>
-    <div><p class="ft-nt">Navigate</p><div class="ft-links"><a href="#" onclick="go('home',event)">Home</a><a href="#" onclick="go('work',event)">Work</a><a href="#" onclick="go('films',event)">Films</a></div></div>
-    <div><p class="ft-nt">Connect</p><div class="ft-links"><a href="#" onclick="go('contact',event)">Contact</a><a href="mailto:godmodestudiozhq@gmail.com">Email Us</a></div></div>
-  </div>
-  <div class="ft-bot"><span class="ft-copy">© 2025 GodMode Studioz</span><span class="ft-copy">godmodestudioz.com</span></div>
-</footer>
-</div>
-
-<!-- ══════════════════════════ FILMS ══════════════════════════ -->
-<div class="pg" id="pg-films">
-<div class="pg-hero">
-  <div class="pg-hero-orb"></div>
-  <span class="eyebrow">Filmography</span>
-  <h1 class="pg-h">Projects we've<br><em>brought to life.</em></h1>
-  <p class="pg-sub">Major films, OTT originals, celebration cuts — across every major Indian film language.</p>
-</div>
-
-<section class="sec">
-  <div class="films-list">
-    <div class="lang-block rv"><span class="lang-label">Kannada</span><div class="lang-films"><em>KGF Chapter 2</em><span class="fsep">·</span>Kantara Chapter 1<span class="fsep">·</span>Gandhadagudi<span class="fsep">·</span>Mark<span class="fsep">·</span>Ekam<span class="fsep">·</span>Mithya</div></div>
-    <div class="lang-block rv"><span class="lang-label">Telugu</span><div class="lang-films"><em>Salaar</em><span class="fsep">·</span>Saripodhaa Sanivaaram<span class="fsep">·</span>Lucky Bhaskar<span class="fsep">·</span>Guntur Kaaram<span class="fsep">·</span>Shyam Singha Roy</div></div>
-    <div class="lang-block rv"><span class="lang-label">Hindi</span><div class="lang-films"><em>12th Fail</em><span class="fsep">·</span>Maharagni<span class="fsep">·</span>Mahavatar Narasimha</div></div>
-    <div class="lang-block rv"><span class="lang-label">Tamil</span><div class="lang-films">Raghu Thatha<span class="fsep">·</span>Madharasi</div></div>
-    <div class="lang-block rv"><span class="lang-label">Malayalam</span><div class="lang-films"><em>Empuraan 2</em></div></div>
-  </div>
-  <div style="text-align:center;margin-top:80px;padding-top:80px;border-top:1px solid var(--border)" class="rv">
-    <p style="font-family:'Playfair Display',serif;font-size:clamp(36px,5vw,64px);font-weight:300;color:var(--wh3);margin-bottom:32px;letter-spacing:-.02em">And <em style="color:var(--r);font-weight:400">70+</em> more films.</p>
-    <a href="#" class="btn-pill solid" onclick="go('contact',event)">Discuss Your Project</a>
-  </div>
-</section>
-
-<footer>
-  <div class="ft-top">
-    <div><div class="ft-logo">GODMODE<span class="ft-logo-dot"></span>STUDIOZ</div><p class="ft-sub">The first experience of your story.</p></div>
-    <div><p class="ft-nt">Navigate</p><div class="ft-links"><a href="#" onclick="go('home',event)">Home</a><a href="#" onclick="go('work',event)">Work</a><a href="#" onclick="go('services',event)">Services</a></div></div>
-    <div><p class="ft-nt">Connect</p><div class="ft-links"><a href="#" onclick="go('contact',event)">Contact</a><a href="mailto:godmodestudiozhq@gmail.com">Email Us</a></div></div>
-  </div>
-  <div class="ft-bot"><span class="ft-copy">© 2025 GodMode Studioz</span><span class="ft-copy">godmodestudioz.com</span></div>
-</footer>
-</div>
-
-<!-- ══════════════════════════ CONTACT ══════════════════════════ -->
-<div class="pg" id="pg-contact">
-<div class="pg-hero" style="min-height:50vh">
-  <div class="pg-hero-orb"></div>
-  <span class="eyebrow">Let's Talk</span>
-  <h1 class="pg-h">We're ready<br><em>when you are.</em></h1>
-  <p class="pg-sub">The first experience of your story starts with a conversation.</p>
-</div>
-
-<section class="sec">
-  <div class="contact-wrap">
-    <div class="rv">
-      <span class="eyebrow">Direct Contact</span>
-      <h2 class="sec-h" style="margin-bottom:0">Get in <em>touch.</em></h2>
-      <div class="contact-info">
-        <div class="ci"><div class="ci-l">Website</div><a href="https://godmodestudioz.com" class="ci-v" target="_blank">godmodestudioz.com</a></div>
-        <div class="ci"><div class="ci-l">Email</div><a href="mailto:godmodestudiozhq@gmail.com" class="ci-v">godmodestudiozhq@gmail.com</a></div>
-        <div class="ci"><div class="ci-l">Instagram</div><a href="#" class="ci-v">@godmodestudioz</a></div>
-        <div class="ci"><div class="ci-l">Location</div><span class="ci-v" style="cursor:default">Bangalore, India</span></div>
-      </div>
-      <div style="margin-top:40px;padding:32px;background:var(--bk2);border-radius:20px;border:1px solid var(--border)">
-        <p style="font-size:10px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--r);margin-bottom:12px">Working Hours</p>
-        <p style="font-size:14px;font-weight:300;color:var(--wh3);line-height:1.8">Monday – Friday · 9:00 AM – 6:00 PM IST<br>Weekends · By appointment<br><span style="color:var(--wh);font-weight:400">Projects discussed anytime.</span></p>
-      </div>
-    </div>
-    <div class="rv d2">
-      <span class="eyebrow">Send a Message</span>
-      <h2 class="sec-h" style="margin-bottom:0">Start your <em>project.</em></h2>
-      <div class="cf">
-        <div class="fg"><label class="fl">Your Name</label><input type="text" class="fi" placeholder="Full name"></div>
-        <div class="fg"><label class="fl">Email Address</label><input type="email" class="fi" placeholder="your@email.com"></div>
-        <div class="fg"><label class="fl">Production Company</label><input type="text" class="fi" placeholder="Studio / company name"></div>
-        <div class="fg"><label class="fl">Service Required</label>
-          <select class="fsel">
-            <option value="">Select a service...</option>
-            <option>Visual Editing & Promo Cuts</option>
-            <option>Motion Graphics 2D/3D</option>
-            <option>Publicity Design</option>
-            <option>AI & Conceptual Work</option>
-            <option>Special Deliverables</option>
-            <option>Strategy & Campaign Support</option>
-            <option>Full Production Package</option>
-          </select>
-        </div>
-        <div class="fg"><label class="fl">Tell Us About Your Project</label><textarea class="fta" placeholder="Film name, language, timeline, requirements..."></textarea></div>
-        <button class="fsub" onclick="handleSubmit(event)">Send Message →</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="ft-top">
-    <div><div class="ft-logo">GODMODE<span class="ft-logo-dot"></span>STUDIOZ</div><p class="ft-sub">The first experience of your story.<br>Bangalore's cinematic visual production house.</p></div>
-    <div><p class="ft-nt">Navigate</p><div class="ft-links"><a href="#" onclick="go('home',event)">Home</a><a href="#" onclick="go('about',event)">About</a><a href="#" onclick="go('work',event)">Work</a><a href="#" onclick="go('films',event)">Films</a></div></div>
-    <div><p class="ft-nt">Services</p><div class="ft-links"><a href="#" onclick="go('services',event)">All Services</a><a href="mailto:godmodestudiozhq@gmail.com">Email Us</a><a href="https://godmodestudioz.com" target="_blank">godmodestudioz.com</a></div></div>
-  </div>
-  <div class="ft-bot"><span class="ft-copy">© 2025 GodMode Studioz · All Rights Reserved</span><span class="ft-copy">godmodestudioz.com</span></div>
-</footer>
-</div>
-
-<script>
-// CURSOR
-const cur = document.getElementById('cur');
-const curO = document.getElementById('curO');
-let cx=0,cy=0,ox=0,oy=0;
-document.addEventListener('mousemove',e=>{
-  cx=e.clientX;cy=e.clientY;
-  cur.style.left=cx+'px';cur.style.top=cy+'px';
-});
-function lerp(a,b,t){return a+(b-a)*t}
-function animCursor(){
-  ox=lerp(ox,cx,.12);oy=lerp(oy,cy,.12);
-  curO.style.left=ox+'px';curO.style.top=oy+'px';
-  requestAnimationFrame(animCursor);
-}
-animCursor();
-
-// NAV
-window.addEventListener('scroll',()=>{
-  document.getElementById('nav').classList.toggle('solid',window.scrollY>80);
-});
-
-// PAGE NAV
-function go(name,e){
-  if(e&&e.preventDefault)e.preventDefault();
-  const w=document.getElementById('wipe');
-  w.style.transition='transform .4s cubic-bezier(.76,0,.24,1)';
-  w.style.transformOrigin='bottom';
-  w.style.transform='scaleY(1)';
-  setTimeout(()=>{
-    document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));
-    const t=document.getElementById('pg-'+name);
-    if(t){t.classList.add('on');window.scrollTo(0,0);boot();}
-    w.style.transformOrigin='top';
-    w.style.transform='scaleY(0)';
-  },380);
-}
-
-// REVEAL
-function boot(){
-  const io=new IntersectionObserver(entries=>{
-    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
-  },{threshold:.08,rootMargin:'0px 0px -40px 0px'});
-  document.querySelectorAll('.pg.on .rv').forEach(el=>{el.classList.remove('in');io.observe(el);});
-}
-boot();
-
-// FORM
-function handleSubmit(e){
-  e.preventDefault();
-  const b=document.querySelector('.fsub');
-  b.textContent='Message Sent ✓';b.style.background='#1a1a1a';
-  setTimeout(()=>{b.textContent='Send Message →';b.style.background='';},3000);
-}
-</script>
-</body>
-</html>
+    <div class="svc"><div class="svc-hover-orb"></div><span class
